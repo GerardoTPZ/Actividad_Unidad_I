@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import url('https://googleapis.com');
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Inter', sans-serif;
+  color: #2d3436;
+}
+
+.main-wrapper {
+  padding-bottom: 50px;
+}
+
+.custom-nav {
+  background: white;
+  border-bottom: 1px solid #edf2f7;
+  padding: 1rem 0;
+}
+
+
+.custom-card, .tarea-card {
+  border-radius: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarea-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05) !important;
+}
+
+.custom-input {
+  background-color: #f1f3f5;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.custom-input:focus {
+  background-color: #fff;
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.1);
+}
+
+.btn-action {
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+.bg-primary-soft {
+  background-color: #e7f1ff;
+}
+
+.text-primary {
+  color: #0d6efd !important;
+}
