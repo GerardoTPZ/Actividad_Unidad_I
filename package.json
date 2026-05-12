@@ -1,31 +1,15 @@
 {
-<<<<<<< HEAD
-  "name": "actividad4-backend",
+  "name": "actividad_unidad_i",
   "version": "1.0.0",
-  "description": "",
+  "description": "Actividad Unidad IV",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Gerardo Perez",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
-=======
-  "name": "actividad-unidad-i",
-  "version": "1.0.0",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-bootstrap": "^2.10.0",
-    "bootstrap": "^5.3.0",
-    "react-scripts": "5.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start"
->>>>>>> e093a0b9ce9b404d313f6e95a441fb23e2f9b9fc
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
   }
 }
