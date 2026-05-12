@@ -25,14 +25,6 @@ Incluye:
 - Express.js
 - Cors
 
----
-
-# Repositorio
-
-[Repositorio GitHub](https://github.com/GerardoTPZ/Actividad_Unidad_I/tree/Actividad_Unidad_IV?utm_source=chatgpt.com)
-
----
-
 # Clonar el proyecto
 
-git clone https://github.com/GerardoTPZ/Actividad_Unidad_I.git
+git clone --branch Actividad_Unidad_IV --single-branch https://github.com/GerardoTPZ/Actividad_Unidad_I.git
