@@ -28,3 +28,8 @@ Incluye:
 # Clonar el proyecto
 
 git clone --branch Actividad_Unidad_IV --single-branch https://github.com/GerardoTPZ/Actividad_Unidad_I.git
+
+# Iniciar el proyecto
+
+cd Actividad_Unidad_I
+npm start
