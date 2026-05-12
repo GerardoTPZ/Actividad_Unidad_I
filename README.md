@@ -32,4 +32,5 @@ git clone --branch Actividad_Unidad_IV --single-branch https://github.com/Gerard
 # Iniciar el proyecto
 
 - cd Actividad_Unidad_I
+- npm install
 - npm start
