@@ -1,0 +1,183 @@
+{
+  "info": {
+    "_postman_id": "05d4ef67-20ae-475c-b884-8330ed376b64",
+    "name": "Tarea5",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "25182708"
+  },
+  "item": [
+    {
+      "name": "Post",
+      "item": [
+        {
+          "name": "Agregar Tarea",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n   \"title\":\"Estudiar Node\",\r\n   \"description\":\"CRUD Mongo\",\r\n   \"deadline\":\"2026-05-25\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/addTask",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "addTask"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Agregar Meta",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n   \"title\":\"Aprender Backend\",\r\n   \"deadline\":\"2026-06-15\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/addGoal",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "addGoal"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Get",
+      "item": [
+        {
+          "name": "Obtener Tarea",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n   \"title\":\"Estudiar Node\",\r\n   \"description\":\"CRUD Mongo\",\r\n   \"deadline\":\"2026-05-25\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/getTasks",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "getTasks"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Meta",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n   \"title\":\"Aprender Backend\",\r\n   \"deadline\":\"2026-06-15\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/getGoals",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "getGoals"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Delete",
+      "item": [
+        {
+          "name": "Eliminar Tarea",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/removeTask/ID",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "removeTask",
+                "ID"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eliminar Meta",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/removeGoal/ID",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "removeGoal",
+                "ID"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
